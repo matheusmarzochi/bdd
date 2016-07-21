@@ -14,11 +14,11 @@
 	 Scenario: Cadastrando uma nova jornada com data de início inferior a data de admissão do funcionário.
 	 	Given o tipo do usuário é "Docente"
    	 	And insiro uma data de início da "Jornada" menor que a data de "Admissão" do funcionário
-    	And insiro "Tabela de Referências de Aulas Docente" ativa
-    	When eu apertar "Salvar"
-    	Then eu devo ver uma mensagem informando "Não é possível ter uma jornada antes da contratação da pessoa!"
-    	But o sistema não deve permitir salvar esse registro
-    	#PASSOU
+    		And insiro "Tabela de Referências de Aulas Docente" ativa
+    		When eu apertar "Salvar"
+    		Then eu devo ver uma mensagem informando "Não é possível ter uma jornada antes da contratação da pessoa!"
+    		But o sistema não deve permitir salvar esse registro
+    		#PASSOU
 
 	Feature: Validação de CPF no cadastro de funcionário.
 	 Scenario:
