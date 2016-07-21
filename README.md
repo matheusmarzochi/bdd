@@ -1,2 +1,2 @@
-# bdd
-Scenarios descriptions using behat
+# BDD
+Scenarios and features descriptions using behat
